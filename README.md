@@ -58,3 +58,17 @@ Way of Water is designed to simplify the process of managing an irrigation syste
    ```bash
    git clone https://github.com/yourusername/way-of-water.git
    cd way-of-water
+## Usage
+- **Boot-Up Screen**: Starts with an animation and navigates to the home screen.
+- **Home Screen**: Displays rain and moisture data fetched from Adafruit IO.
+- **Sensor Layout Page**: Shows location, latitude, and longitude data.
+- **Settings Page**: Allows configuring app settings.
+- **Start Page**: Initial page for entering user information and navigation.
+- **Weather Page**: Displays weather data including temperature, rain, pressure, wind speed, and location.
+
+## Contributing
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Make your changes and commit them (git commit -m 'Add new feature').
+- Push to the branch (git push origin feature-branch).
+- Open a Pull Request.
