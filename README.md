@@ -1,6 +1,6 @@
-# Automated-Irrigation-App
+# Way of Water
 
-This is a Flutter application designed to interact with Adafruit IO for sensor data and control a pump. The app consists of several screens including a boot-up screen, home screen, sensor layout page, and settings page.
+Way of Water is an IoT-based automated irrigation app built using Flutter and Adafruit IO. The app allows users to monitor and control their irrigation system remotely, providing real-time data on weather conditions and sensor readings.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -12,7 +12,7 @@ This is a Flutter application designed to interact with Adafruit IO for sensor d
 
 ## Overview
 
-This Flutter app communicates with Adafruit IO to fetch sensor data and control a pump. It features a smooth animation on the boot-up screen, displays sensor data on various screens, and provides a settings page for app configurations.
+Way of Water is designed to simplify the process of managing an irrigation system. It provides a user-friendly interface to monitor weather conditions, sensor data, and control the pump state through integration with Adafruit IO.
 
 ## File Descriptions
 
@@ -36,11 +36,25 @@ This Flutter app communicates with Adafruit IO to fetch sensor data and control 
 
 ### `SettingsPage.dart`
 - **Purpose**: Provides a settings interface for the app.
-- **Key Components**: (Details to be added after file analysis)
+- **Key Components**:
+  - `SettingsPage`: Stateful widget that allows users to input and save their user name, location, and land area.
+  - Text fields for user name, location, and land area with a save button.
+
+### `StartPage.dart`
+- **Purpose**: Initial page for entering user information and navigating to the settings or home page.
+- **Key Components**:
+  - `StartPage`: Stateful widget for user input and navigation.
+  - Text fields for user name, location, and land area with buttons to navigate to the `SettingsPage` or `HomeScreen`.
+
+### `WeatherPage.dart`
+- **Purpose**: Displays weather data fetched from Adafruit IO.
+- **Key Components**:
+  - `AdafruitIOService`: Service class for fetching weather data.
+  - `WeatherPage`: Stateful widget that fetches and displays weather data with icons representing different weather conditions.
 
 ## Installation
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/yourusername/way-of-water.git
+   cd way-of-water
