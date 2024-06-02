@@ -1,5 +1,4 @@
 # Automated-Irrigation-App
-# My Flutter App
 
 This is a Flutter application designed to interact with Adafruit IO for sensor data and control a pump. The app consists of several screens including a boot-up screen, home screen, sensor layout page, and settings page.
 
